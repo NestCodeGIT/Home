@@ -1,0 +1,280 @@
+/* body {
+  font-family: "Comic Sans MS", "Poppins", sans-serif;
+  background-color: #E0F7FA;
+  background-image: url('/Tag_03/Project-web/html/meere/Bilder/tiere/home-BG.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: #01579B;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+ 
+  justify-content: space-between;
+  padding: 12px 30px;
+  margin: 12px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.329);
+  z-index: 10;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 0 8px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #E0FFFF;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  color: #00FFFF;
+  text-shadow: 0 0 10px cyan;
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.1);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgb(216, 253, 8);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 8px cyan; 
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 25px;
+  padding: 45px 30px;
+  margin: 60px auto;
+  width: 85%;
+  max-width: 900px;
+  box-shadow: 0 0 30px rgba(96, 185, 236, 0.4);
+}
+
+.title h1 {
+  color: #0277BD;
+  font-size: 44px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(96, 185, 236, 0.3);
+}
+
+.title h3 {
+  color: #0288D1;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+.intro p {
+  font-size: 20px;
+  line-height: 1.6;
+  background: rgba(179, 229, 252, 0.9);
+  padding: 25px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(96, 185, 236, 0.3);
+  width: 80%;
+  backdrop-filter: blur(6px);
+}
+
+.footer {
+  text-align: center;
+  background: rgba(96, 185, 236, 0.7);
+  color: white;
+  padding: 10px 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px 10px 0 0;
+  margin: 30px 20px 10px;
+  backdrop-filter: blur(6px);
+}
+
+/* ---------------------------------------------------------------
+
+
+------------------------------------------------------------- */
+
+
+
+/* 
+
+.oceans input[type="radio"] {
+  display: none;
+}
+
+
+.ocean-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 50px 20px;
+}
+
+.ocean {
+  flex: 1;
+  min-width: 250px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.ocean img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ 
+border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+;
+   
+}
+
+.ocean h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.ocean:hover {
+  transform: scale(1.05);
+}
+
+
+.galleries .ocean-gallery {
+  display: none;
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #0288D1;
+  border-radius: 15px;
+  background-color: rgba(179, 229, 252, 0.9);
+}
+
+
+#atlantik:checked ~ .ocean-labels + .galleries #atlantik-gallery,
+#pazifik:checked ~ .ocean-labels + .galleries #pazifik-gallery,
+#indischer:checked ~ .ocean-labels + .galleries #indischer-gallery {
+  display: block;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.slider img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+
+.slider img:hover {
+  transform: scale(1.1);
+}
+
+
+/* 
+-----------------------------------------------------------------------
+
+               atlantic
+-------------------------------------------------------------------- */
+
+
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #0277BD;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.animal {
+  margin: 30px 0;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(179, 229, 252, 0.9);
+  box-shadow: 0 4px 15px rgba(96, 185, 236, 0.3);
+}
+
+.animal h2 {
+  font-size: 24px;
+  color: #0288D1;
+  margin-bottom: 10px;
+}
+
+.animal img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .animal img {
+    max-height: 200px;
+  }
+}  
